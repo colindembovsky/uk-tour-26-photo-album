@@ -1,0 +1,63 @@
+<!doctype html>
+<!--
+  DIRECTION CONTRACT (impeccable · seeds 05fc5c99 / 0dbfce73)
+  THESIS: A family photo album lying open on a walnut table, its four city
+  chapters bound in hand-tooled leather.
+  OWN-WORLD: One shared keyline grammar of gilt bookbinder's tooling. Each city
+  has its own ornament unit: Edinburgh thistle, London plane leaf, Belfast riveted
+  porthole, Dublin harp. The units also serve as covers, tabs, folios and
+  contents marks.
+  STORY: Closed cover → contents → for each city a tooled cover with a glassine
+  interleaf holding its history → black card leaves of mounted prints with pencil
+  captions → home again.
+  FIRST VIEWPORT: The closed album, gilt title, and its four-unit centrepiece
+  tooling itself into the leather.
+  FORM: Scrolling leaves for browsing, plus a slideshow that lays one print at a
+  time on the table.
+-->
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Four Cities · Edinburgh, London, Belfast &amp; Dublin</title>
+  <meta name="description" content="A family photo album from a week in Edinburgh, London, Belfast and Dublin, October 2026.">
+  <meta name="theme-color" content="#2a1c13">
+  <meta property="og:title" content="Four Cities">
+  <meta property="og:description" content="Edinburgh, London, Belfast & Dublin · October 2026">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&family=Alegreya+Sans+SC:wght@500&family=Marcellus&display=swap">
+  <link rel="preload" href="album.json" as="fetch" crossorigin>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contents">Skip to contents</a>
+  <main id="album" aria-busy="true">
+    <noscript><p class="noscript">This album needs JavaScript to open.</p></noscript>
+  </main>
+  <nav class="tabs" aria-label="Chapters" hidden></nav>
+
+  <dialog class="show" aria-label="Slideshow">
+    <p class="show-where" aria-live="polite"></p>
+    <button class="icon show-close" type="button" aria-label="Back to the album">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="show-stage"></div>
+    <div class="show-controls">
+      <button class="icon show-prev" type="button" aria-label="Previous">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <button class="icon show-play" type="button" aria-label="Play slideshow" aria-pressed="false">
+        <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>
+        <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5.5v13M15 5.5v13"/></svg>
+      </button>
+      <button class="icon show-next" type="button" aria-label="Next">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+      <span class="show-progress" aria-hidden="true"><span></span></span>
+    </div>
+  </dialog>
+</body>
+</html>

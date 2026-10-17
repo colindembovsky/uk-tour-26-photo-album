@@ -1,0 +1,291 @@
+# Album copy. Edit freely, then run `npm run build`.
+#
+# - Photos appear in the order listed here.
+# - New files dropped into photos/<city>/ are appended automatically
+#   (by capture time) with an empty caption the next time you build.
+# - Add `hide: true` to leave a photo out without deleting it.
+# - Lines marked "CHECK" are guesses I couldn't confirm from the photo.
+# - Every photo is signed bottom-right (or bottom-left if calmer). Override
+#   per photo with `signature: left|right|none` and/or `ink: black|white`.
+
+title: Four Cities
+subtitle: Edinburgh, London, Belfast & Dublin
+dates: October 2026
+
+chapters:
+  - id: edinburgh
+    name: Edinburgh
+    dates: 4–5 October
+    history: >
+      Edinburgh grew along a ridge of old volcanic rock, with a castle at one
+      end, a royal palace at the other, and the Royal Mile running between
+      them. By the 1700s the crowded Old Town was bursting at the seams, so the
+      city built the orderly Georgian streets of the New Town across the valley
+      and became the "Athens of the North": home of the Scottish Enlightenment,
+      of David Hume and Adam Smith, and of the Greek-temple monuments that crown
+      Calton Hill. Scotland's capital for more than five hundred years, it still
+      wears its history on every stone.
+    photos:
+      - file: 20261004_121421.jpg
+        caption: The Conan Doyle pub. Sherlock's creator was born just round the corner.
+      - file: 20261004_125113.jpg
+        caption: Arthur Conan Doyle's Sherlock Holmes, keeping watch over Picardy Place.
+      - file: 872A4136.jpeg
+        caption: Just out of Waverley, with the Old Town already towering overhead.
+      - file: 20261004_140257.jpg
+        caption: The Scott Monument, the largest monument to a writer anywhere in the world.
+      - file: 872A4138.jpeg
+        caption: Looking up towards the Old Town, the city stacked on its ridge.
+      - file: 872A4141.jpeg
+        caption: Edinburgh is steep with lots of staircases.
+      - file: 872A4144.jpeg
+        caption: St Giles' Cathedral and its crown spire on the Royal Mile.
+      - file: 872A4147.jpeg
+        caption: A painted coat of arms above a Royal Mile doorway.
+      - file: 872A4151.jpeg
+        caption: Old town door.
+      - file: 872A4156.jpeg
+        caption: The castle esplanade, along with the ever-present crowds.
+      - file: 872A4161.jpeg
+        caption: Through the castle gates.
+      - file: 872A4162.jpeg
+        caption: Every stone up here has a story, and most of them have a plaque.
+      - file: 872A4169.jpeg
+        caption: Field Marshal Earl Haig on horseback, inside the castle walls.
+      - file: 20261004_144541.jpg
+        caption: Obligatory castle selfie.
+        ink: white
+      - file: 872A4171.jpeg
+        caption: The One O'Clock Gun, aimed out over the Firth of Forth. It still fires every day except Sunday.
+      - file: 872A4177.jpeg
+        caption: A stone keeper watching over the visitors.
+      - file: 872A4178.jpeg
+        caption: The Scottish National War Memorial, high on Castle Rock.
+      - file: 872A4180.jpeg
+        caption: Gold worked over stone.
+      - file: 872A4181.jpeg
+        caption: A stone lion holding the Union shield.
+      - file: 872A4186.jpeg
+        caption: The hammerbeam roof of the Great Hall, built for James IV.
+      - file: 872A4192.jpeg
+        caption: William Wallace guarding the castle gatehouse.
+      - file: 20261004_162731.jpg
+        caption: '"Thistle do nicely." Scotland''s finest shop-sign pun.'
+      - file: 20261004_181125.jpg
+        caption: The Guildford Arms, a Victorian pub on a proper Edinburgh corner.
+      - file: 20261004_183824.jpg
+        caption: Fish and chips and mashy peas - a proper British meal and no regrets.
+      - file: 20261004_192704.jpg
+        caption: When in Scotland, one must drink Scotch!
+      - file: 20261005_101441.jpg
+        caption: Monday morning, and a red door on a Victorian church.
+      - file: 20261005_104631.jpg
+        caption: Grand old stonework on a quiet New Town street.
+      - file: 872A4199.jpeg
+        caption: I loved this quaint front door in the New Town just opposite a coffee shop.
+      - file: 872A4203.jpeg
+        caption: The Nelson Monument on Calton Hill, shaped like an upturned telescope.
+      - file: 872A4205.jpeg
+        caption: Dugald Stewart's monument and the whole city laid out below it.
+      - file: 872A4210.jpeg
+        caption: Calton Hill, where Edinburgh comes to look at itself.
+      - file: 872A4214.jpeg
+        caption: The National Monument, Edinburgh's Parthenon. The money ran out in 1829, so it was never finished.
+      - file: 872A4217.jpeg
+        caption: A cannon on Calton Hill.
+      - file: 872A4222.jpeg
+        caption: One last look up at Nelson. The ball at the top drops at 1 p.m. every day for sailors to set their clocks.
+      - file: 872A4218.jpeg
+        caption: Calton Hill in black and white, the way it would have looked to Robert Louis Stevenson.
+
+  - id: london
+    name: London
+    dates: 6–7 October
+    history: >
+      The Romans founded Londinium on the Thames almost two thousand years
+      ago, and the square mile they walled is still the City of London. The
+      city survived plague and the Great Fire of 1666, after which Christopher
+      Wren rebuilt more than fifty churches and St Paul's Cathedral, whose dome
+      has watched over London since the early 1700s. Today glass towers crowd
+      around Wren's spires, Nelson keeps watch over Trafalgar Square, and the
+      old and the new share every street.
+    photos:
+      - file: 20261006_134143.jpg
+        caption: The City of London, where the towers all have nicknames.
+      - file: 20261006_134841.jpg
+        caption: Long afternoon shadows in a City passageway just outside the office meeting I'm headed to.
+      - file: 20261006_135421.jpg
+        caption: Obligatory selfie proving I was actually here for work!
+      - file: 20261006_151132.jpg
+        caption: A City church spire, a row of hire bikes, and blue sky. Peak London.
+      - file: 20261006_151456.jpg
+        caption: First glimpse of the dome of St Paul's through the trees.
+      - file: 20261006_151811.jpg
+        caption: St Paul's from the churchyard gardens.
+      - file: 20261006_151903.jpg
+        caption: John Wesley, honored beside St Paul's.
+      - file: 20261006_151934.jpg
+        caption: Wren's masterpiece, side-on and enormous.
+      - file: 872A4225.jpeg
+        caption: The west front of St Paul's Cathedral, finished in 1711.
+      - file: 872A4228.jpeg
+        caption: Queen Anne, who was on the throne when St Paul's was finished.
+      - file: 872A4231.jpeg
+        caption: One of the figures at Queen Anne's feet, trident and all.
+      - file: 872A4233.jpeg
+        caption: London's bikes, parked politely. Keep calm and pedal on, old chap!
+      - file: 872A4236.jpeg
+        caption: Victorian grandeur on a City street.
+      - file: 872A4237.jpeg
+        caption: The Thames, with the Shard and its neighbours across the water.
+      - file: 20261006_163735.jpg
+        caption: West End shopping streets, flags out.
+      - file: 20261006_164547.jpg
+        caption: Nelson on his column in Trafalgar Square.
+      - file: 20261006_164801.jpg
+        caption: Me, a lion, and Nelson way up there.
+      - file: 20261006_165543.jpg
+        caption: Handsome old frontages on the way to dinner.
+      - file: 20261006_175200.jpg
+        caption: Window shopping, Italian-deli style.
+      - file: 20261006_191308.jpg
+        caption: Dinner with the Forwards - haven't seen them for ages.
+      - file: 872A4241.jpeg
+        caption: A grey morning by the river - Eton!
+      - file: 872A4244.jpeg
+        caption: The locals were very graceful about the rain.
+      - file: 872A4246.jpeg
+        caption: An old wooden footbridge and the first autumn colours.
+      - file: 872A4256.jpeg
+        caption: Umbrellas out on the Eton high street. Very English.
+      - file: 20261007_114154(0).jpg
+        caption: Spent the morning with the Wilkinsons - breakfast, river cruise and tea, of course!
+
+  - id: belfast
+    name: Belfast
+    dates: 7–8 October
+    history: >
+      Belfast takes its name from Béal Feirste, "the mouth of the sandbank
+      ford", where the little River Farset met the Lagan. It was a modest town
+      until the 1800s, when linen, rope-making and shipbuilding turned it into
+      an industrial powerhouse. By 1900 Harland & Wolff was the largest
+      shipyard in the world, and in 1911 it launched the Titanic. After the
+      hard decades of the Troubles, the old docks have become the Titanic
+      Quarter, and the Albert Memorial Clock still leans gently over the city
+      centre.
+    photos:
+      - file: canon/872A4262.jpeg
+        caption: Sun breaking over the marina on my first evening in Belfast.
+      - file: canon/872A4260.jpeg
+        caption: The same sky a minute later, still showing off.
+      - file: canon/872A4264.jpeg
+        caption: The Lagan waterfront and the Obel Tower, Belfast's tallest building.
+      - file: canon/872A4266.jpeg
+        caption: The Albert Memorial Clock, Belfast's own leaning tower.
+      - file: 20261007_180544.jpg
+        caption: First Guinness on the island of Ireland.
+      - file: 20261008_124947.jpg
+        caption: You just can't beat Nandos.
+
+  - id: dublin
+    name: Dublin
+    dates: 9 October
+    history: >
+      Vikings founded Dublin in the 840s beside Dubh Linn, the "black pool"
+      where the River Poddle met the Liffey. Christ Church Cathedral rose on
+      their settlement, and St Patrick's followed nearby. Georgian Dublin came
+      next, with its grand quays and James Gandon's green-domed Custom House.
+      In 1759 Arthur Guinness signed a 9,000-year lease on a brewery at St
+      James's Gate, which is why a pint here tastes like history. In 1922 Dublin
+      became the capital of an independent Ireland.
+    photos:
+      - file: 872A4267.jpeg
+        caption: The Jeanie Johnston, a replica famine ship moored on the Liffey.
+      - file: 872A4268.jpeg
+        caption: A gull has taken command of the Jeanie Johnston.
+      - file: 872A4270.jpeg
+        caption: Down the Liffey towards the Custom House.
+      - file: 872A4274.jpeg
+        caption: James Gandon's Custom House, finished in 1791.
+      - file: 872A4275.jpeg
+        caption: The lion and the unicorn, still guarding the roofline.
+      - file: 872A4276.jpeg
+        caption: That green copper dome, against a perfect blue sky.
+      - file: 872A4277.jpeg
+        caption: The Custom House, head-on.
+      - file: 872A4279.jpeg
+        caption: A young gull who wouldn't move for anyone.
+      - file: 872A4281.jpeg
+        caption: The Ha'penny Bridge. It once cost half a penny to cross.
+      - file: 872A4284.jpeg
+        caption: Through Merchant's Arch into Temple Bar.
+      - file: 872A4290.jpeg
+        caption: Christ Church Cathedral, standing on the site of Viking Dublin.
+      - file: 872A4292.jpeg
+        caption: Christ Church from across the road.
+      - file: 872A4294.jpeg
+        caption: The old stones of the cathedral quarter, around Christ Church.
+      - file: 872A4295.jpeg
+        caption: The covered bridge linking Christ Church to Dublinia.
+      - file: 20261009_123042.jpg
+        caption: Dublin's coat of arms on a cast-iron bollard. Even the street furniture is handsome.
+      - file: 872A4296.jpeg
+        caption: Christ Church and its bridge, in black and white.
+      - file: 20261009_124014.jpg
+        caption: Bronze spikes, an old tower, and a pigeon who doesn't care for art.
+      - file: 872A4301.jpeg
+        caption: Gothic windows in Dublin's old stone.
+      - file: 872A4304.jpeg
+        caption: The seal of St Patrick's Cathedral, on the railings.
+      - file: 872A4298.jpeg
+        caption: St Patrick's Cathedral, where Jonathan Swift was dean.
+      - file: 872A4306.jpeg
+        caption: A classical church front on a busy street.
+      - file: 872A4307.jpeg
+        caption: John's Lane Church on Thomas Street, with the tallest spire in Dublin.
+      - file: 872A4309.jpeg
+        caption: A Gothic doorway, carved and crowded with figures.
+      - file: 20261009_142150.jpg
+        caption: The Guinness Storehouse - touristy, but well worth it.
+      - file: 20261009_143947.mp4
+        caption: The waterfall at the start of the Storehouse tour.
+      - file: 20261009_150432.jpg
+        caption: There's a video about how coopers handcraft barrels, and a lot of them.
+      - file: 20261009_150846.jpg
+        caption: Seven floors, and every one ends in beer.
+      - file: 20261009_150913.jpg
+        caption: The Storehouse atrium, built in the shape of a giant pint glass.
+      - file: 20261009_152740.jpg
+        caption: Making friends with a character from the old Guinness ads.
+      - file: 20261009_152821.jpg
+        caption: The harp in neon, the brand's symbol since 1862.
+      - file: 20261009_153029.jpg
+        caption: The harp, drawn in wood.
+      - file: 20261009_153218.jpg
+        caption: A cabinet of Guinness memorabilia, cans and all.
+      - file: 20261009_154231.jpg
+        caption: The tasting floor, buzzing.
+      - file: 20261009_155352.jpg
+        caption: Learning to pour the perfect pint.
+      - file: 20261009_155608.jpg
+        caption: My perfect pint. 119.5 seconds, and worth every one.
+      - file: 20261009_162325.jpg
+        caption: '"To the voice of the lobster." Classic Guinness advertising.'
+      - file: 20261009_162920.jpg
+        caption: The view from the Gravity Bar, right across the city.
+      - file: 20261009_163409.jpg
+        caption: The Gravity Bar, with a pint and a 360-degree view.
+      - file: 20261009_163524.jpg
+        caption: The Wellington Monument poking up out of Phoenix Park.
+      - file: 20261009_163924.jpg
+        caption: The brewery from above, still brewing.
+      - file: 20261009_171544.jpg
+        caption: Proof I was there.
+      - file: 20261009_180240.jpg
+        caption: The best Irish coffee I've had, in a Teeling Whiskey glass.
+      - file: 872A4316.jpeg
+        caption: Dusk, a lamppost, and a spire.
+      - file: 20261009_193235.mp4
+        caption: A trad session in the pub. The perfect last night.
+      - file: 872A4324.jpeg
+        caption: St Patrick's Cathedral, lit up for the night. Slán, Dublin.

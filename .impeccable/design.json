@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T21:24:06.555Z",
+  "title": "Design System: Four Cities",
+  "extensions": {
+    "colorMeta": {
+      "gilt": {
+        "role": "primary",
+        "displayName": "Bookbinder’s Gilt",
+        "canonical": "#c8a25a",
+        "tonalRamp": [
+          "oklch(from #c8a25a 0.15 c h)",
+          "oklch(from #c8a25a 0.26 c h)",
+          "oklch(from #c8a25a 0.37 c h)",
+          "oklch(from #c8a25a 0.48 c h)",
+          "oklch(from #c8a25a 0.6 c h)",
+          "oklch(from #c8a25a 0.71 c h)",
+          "oklch(from #c8a25a 0.83 c h)",
+          "oklch(from #c8a25a 0.95 c h)"
+        ]
+      },
+      "gilt-soft": {
+        "role": "primary",
+        "displayName": "Gilt Soft",
+        "canonical": "#d9bf86",
+        "tonalRamp": [
+          "oklch(from #d9bf86 0.15 c h)",
+          "oklch(from #d9bf86 0.26 c h)",
+          "oklch(from #d9bf86 0.37 c h)",
+          "oklch(from #d9bf86 0.48 c h)",
+          "oklch(from #d9bf86 0.6 c h)",
+          "oklch(from #d9bf86 0.71 c h)",
+          "oklch(from #d9bf86 0.83 c h)",
+          "oklch(from #d9bf86 0.95 c h)"
+        ]
+      },
+      "leather-cover": {
+        "role": "secondary",
+        "displayName": "Album Brown",
+        "canonical": "#4a2c1f",
+        "tonalRamp": [
+          "oklch(from #4a2c1f 0.15 c h)",
+          "oklch(from #4a2c1f 0.26 c h)",
+          "oklch(from #4a2c1f 0.37 c h)",
+          "oklch(from #4a2c1f 0.48 c h)",
+          "oklch(from #4a2c1f 0.6 c h)",
+          "oklch(from #4a2c1f 0.71 c h)",
+          "oklch(from #4a2c1f 0.83 c h)",
+          "oklch(from #4a2c1f 0.95 c h)"
+        ]
+      },
+      "leather-edinburgh": {
+        "role": "secondary",
+        "displayName": "Heather",
+        "canonical": "#5b3442",
+        "tonalRamp": [
+          "oklch(from #5b3442 0.15 c h)",
+          "oklch(from #5b3442 0.26 c h)",
+          "oklch(from #5b3442 0.37 c h)",
+          "oklch(from #5b3442 0.48 c h)",
+          "oklch(from #5b3442 0.6 c h)",
+          "oklch(from #5b3442 0.71 c h)",
+          "oklch(from #5b3442 0.83 c h)",
+          "oklch(from #5b3442 0.95 c h)"
+        ]
+      },
+      "leather-london": {
+        "role": "secondary",
+        "displayName": "Oxblood",
+        "canonical": "#6b1f1d",
+        "tonalRamp": [
+          "oklch(from #6b1f1d 0.15 c h)",
+          "oklch(from #6b1f1d 0.26 c h)",
+          "oklch(from #6b1f1d 0.37 c h)",
+          "oklch(from #6b1f1d 0.48 c h)",
+          "oklch(from #6b1f1d 0.6 c h)",
+          "oklch(from #6b1f1d 0.71 c h)",
+          "oklch(from #6b1f1d 0.83 c h)",
+          "oklch(from #6b1f1d 0.95 c h)"
+        ]
+      },
+      "leather-belfast": {
+        "role": "secondary",
+        "displayName": "Harbour Navy",
+        "canonical": "#22324a",
+        "tonalRamp": [
+          "oklch(from #22324a 0.15 c h)",
+          "oklch(from #22324a 0.26 c h)",
+          "oklch(from #22324a 0.37 c h)",
+          "oklch(from #22324a 0.48 c h)",
+          "oklch(from #22324a 0.6 c h)",
+          "oklch(from #22324a 0.71 c h)",
+          "oklch(from #22324a 0.83 c h)",
+          "oklch(from #22324a 0.95 c h)"
+        ]
+      },
+      "leather-dublin": {
+        "role": "secondary",
+        "displayName": "Bottle Green",
+        "canonical": "#1f4a35",
+        "tonalRamp": [
+          "oklch(from #1f4a35 0.15 c h)",
+          "oklch(from #1f4a35 0.26 c h)",
+          "oklch(from #1f4a35 0.37 c h)",
+          "oklch(from #1f4a35 0.48 c h)",
+          "oklch(from #1f4a35 0.6 c h)",
+          "oklch(from #1f4a35 0.71 c h)",
+          "oklch(from #1f4a35 0.83 c h)",
+          "oklch(from #1f4a35 0.95 c h)"
+        ]
+      },
+      "walnut": {
+        "role": "neutral",
+        "displayName": "Walnut",
+        "canonical": "#2a1c13",
+        "tonalRamp": [
+          "oklch(from #2a1c13 0.15 c h)",
+          "oklch(from #2a1c13 0.26 c h)",
+          "oklch(from #2a1c13 0.37 c h)",
+          "oklch(from #2a1c13 0.48 c h)",
+          "oklch(from #2a1c13 0.6 c h)",
+          "oklch(from #2a1c13 0.71 c h)",
+          "oklch(from #2a1c13 0.83 c h)",
+          "oklch(from #2a1c13 0.95 c h)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Black Card",
+        "canonical": "#191b19",
+        "tonalRamp": [
+          "oklch(from #191b19 0.15 c h)",
+          "oklch(from #191b19 0.26 c h)",
+          "oklch(from #191b19 0.37 c h)",
+          "oklch(from #191b19 0.48 c h)",
+          "oklch(from #191b19 0.6 c h)",
+          "oklch(from #191b19 0.71 c h)",
+          "oklch(from #191b19 0.83 c h)",
+          "oklch(from #191b19 0.95 c h)"
+        ]
+      },
+      "card-edge": {
+        "role": "neutral",
+        "displayName": "Card Edge",
+        "canonical": "#0f100f",
+        "tonalRamp": [
+          "oklch(from #0f100f 0.15 c h)",
+          "oklch(from #0f100f 0.26 c h)",
+          "oklch(from #0f100f 0.37 c h)",
+          "oklch(from #0f100f 0.48 c h)",
+          "oklch(from #0f100f 0.6 c h)",
+          "oklch(from #0f100f 0.71 c h)",
+          "oklch(from #0f100f 0.83 c h)",
+          "oklch(from #0f100f 0.95 c h)"
+        ]
+      },
+      "pencil": {
+        "role": "neutral",
+        "displayName": "Pencil",
+        "canonical": "#d6cfbf",
+        "tonalRamp": [
+          "oklch(from #d6cfbf 0.15 c h)",
+          "oklch(from #d6cfbf 0.26 c h)",
+          "oklch(from #d6cfbf 0.37 c h)",
+          "oklch(from #d6cfbf 0.48 c h)",
+          "oklch(from #d6cfbf 0.6 c h)",
+          "oklch(from #d6cfbf 0.71 c h)",
+          "oklch(from #d6cfbf 0.83 c h)",
+          "oklch(from #d6cfbf 0.95 c h)"
+        ]
+      },
+      "pencil-dim": {
+        "role": "neutral",
+        "displayName": "Pencil Dim",
+        "canonical": "#9a9383",
+        "tonalRamp": [
+          "oklch(from #9a9383 0.15 c h)",
+          "oklch(from #9a9383 0.26 c h)",
+          "oklch(from #9a9383 0.37 c h)",
+          "oklch(from #9a9383 0.48 c h)",
+          "oklch(from #9a9383 0.6 c h)",
+          "oklch(from #9a9383 0.71 c h)",
+          "oklch(from #9a9383 0.83 c h)",
+          "oklch(from #9a9383 0.95 c h)"
+        ]
+      },
+      "glassine": {
+        "role": "neutral",
+        "displayName": "Glassine",
+        "canonical": "rgb(234 229 215 / 0.9)",
+        "tonalRamp": [
+          "oklch(from rgb(234 229 215 / 0.9) 0.15 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.26 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.37 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.48 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.6 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.71 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.83 c h)",
+          "oklch(from rgb(234 229 215 / 0.9) 0.95 c h)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#2b2420",
+        "tonalRamp": [
+          "oklch(from #2b2420 0.15 c h)",
+          "oklch(from #2b2420 0.26 c h)",
+          "oklch(from #2b2420 0.37 c h)",
+          "oklch(from #2b2420 0.48 c h)",
+          "oklch(from #2b2420 0.6 c h)",
+          "oklch(from #2b2420 0.71 c h)",
+          "oklch(from #2b2420 0.83 c h)",
+          "oklch(from #2b2420 0.95 c h)"
+        ]
+      },
+      "print-edge": {
+        "role": "neutral",
+        "displayName": "Print Edge",
+        "canonical": "#ece6d8",
+        "tonalRamp": [
+          "oklch(from #ece6d8 0.15 c h)",
+          "oklch(from #ece6d8 0.26 c h)",
+          "oklch(from #ece6d8 0.37 c h)",
+          "oklch(from #ece6d8 0.48 c h)",
+          "oklch(from #ece6d8 0.6 c h)",
+          "oklch(from #ece6d8 0.71 c h)",
+          "oklch(from #ece6d8 0.83 c h)",
+          "oklch(from #ece6d8 0.95 c h)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Stamped Display",
+        "purpose": "Gilt uppercase city names on chapter covers."
+      },
+      "headline": {
+        "displayName": "Album Title",
+        "purpose": "Album cover title."
+      },
+      "body": {
+        "displayName": "Glassine Body",
+        "purpose": "One-paragraph city history on the glassine."
+      },
+      "caption": {
+        "displayName": "Pencil Caption",
+        "purpose": "Italic caption under each print."
+      },
+      "label": {
+        "displayName": "Small-Caps Label",
+        "purpose": "Dates, numbers, folios."
+      }
+    },
+    "shadows": [
+      {
+        "name": "board-on-table",
+        "value": "0 1px 2px rgb(0 0 0/.5), 0 22px 50px -18px rgb(0 0 0/.75)",
+        "purpose": "Leather covers."
+      },
+      {
+        "name": "leaf-on-table",
+        "value": "0 1px 2px rgb(0 0 0/.55), 0 26px 60px -24px rgb(0 0 0/.8)",
+        "purpose": "Black card leaves."
+      },
+      {
+        "name": "print-on-card",
+        "value": "0 1px 1px rgb(0 0 0/.55), 0 10px 24px -10px rgb(0 0 0/.85)",
+        "purpose": "Mounted prints at rest."
+      },
+      {
+        "name": "print-lifted",
+        "value": "0 2px 2px rgb(0 0 0/.45), 0 22px 40px -14px rgb(0 0 0/.9)",
+        "purpose": "Print hover."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.45, 0, 0.2, 1)",
+        "purpose": "Tooling stroke reveal (1.6s)."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Print lift and slide transitions."
+      },
+      {
+        "name": "drift",
+        "value": "9s linear",
+        "purpose": "Slow slideshow drift."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "corners-hidden",
+        "value": "max-width: 700px"
+      },
+      {
+        "name": "pairs",
+        "value": "min-width: 900px"
+      },
+      {
+        "name": "side-tabs",
+        "value": "min-width: 1240px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Leather Board",
+      "kind": "card",
+      "refersTo": "chapter-cover",
+      "description": "Tooled leather cover for the album and each city chapter.",
+      "html": "<div class=\"ds-leather\"><h2>Edinburgh</h2><p>4–5 October</p></div>",
+      "css": ".ds-leather{position:relative;isolation:isolate;display:grid;place-items:center;gap:.6rem;width:280px;aspect-ratio:3/4;padding:2rem;background:#4a2c1f url(docs/assets/leather.png);background-size:512px;color:#c8a25a;border-radius:5px;box-shadow:inset 0 1px 0 rgb(255 235 200/.08),inset 0 0 40px rgb(0 0 0/.28),0 1px 2px rgb(0 0 0/.5),0 22px 50px -18px rgb(0 0 0/.75)}.ds-leather::before{content:\"\";position:absolute;inset:.8rem;border:1px solid rgb(200 162 90/.6)}.ds-leather h2{margin:0;font:400 1.6rem/1.1 Marcellus,Georgia,serif;letter-spacing:.16em;text-transform:uppercase;text-shadow:0 1px 0 rgb(0 0 0/.45)}.ds-leather p{margin:0;font:400 .9rem \"Alegreya Sans SC\",sans-serif;letter-spacing:.2em;color:#d9bf86}"
+    },
+    {
+      "name": "Glassine Interleaf",
+      "kind": "card",
+      "refersTo": "glassine-history",
+      "description": "Translucent sheet holding a city history with a leather-coloured drop cap.",
+      "html": "<div class=\"ds-glassine\"><p>Edinburgh grew along a ridge of old volcanic rock, with a castle at one end and a palace at the other.</p></div>",
+      "css": ".ds-glassine{max-width:32rem;padding:2rem 2.4rem;background:linear-gradient(172deg,rgb(255 255 255/.22),transparent 30%),rgb(234 229 215/.9);color:#2b2420;border-radius:1px;box-shadow:0 1px 1px rgb(0 0 0/.18),0 6px 18px -8px rgb(0 0 0/.45)}.ds-glassine p{margin:0;font:400 1.1rem/1.68 Alegreya,Georgia,serif}.ds-glassine p::first-letter{float:left;margin:.06em .12em 0 0;font:400 3.55em/.8 Marcellus,Georgia,serif;color:#5b3442}"
+    },
+    {
+      "name": "Mounted Print",
+      "kind": "custom",
+      "refersTo": "print",
+      "description": "Photo in a white print edge, slightly tilted on black card, with pencil caption.",
+      "html": "<figure class=\"ds-print\"><button class=\"ds-photo\" aria-label=\"Open photo\"></button><figcaption><span class=\"ds-num\">07</span>Lunch: half a chicken, no regrets.</figcaption></figure>",
+      "css": ".ds-print{margin:0;padding:2rem;background:#191b19;display:grid;gap:.85rem;width:320px}.ds-photo{display:block;width:100%;aspect-ratio:3/2;border:.45rem solid #ece6d8;border-radius:1px;background:#6a5a48;transform:rotate(-.4deg);box-shadow:0 1px 1px rgb(0 0 0/.55),0 10px 24px -10px rgb(0 0 0/.85);transition:transform .45s cubic-bezier(.22,1,.36,1),box-shadow .45s cubic-bezier(.22,1,.36,1);cursor:zoom-in}.ds-photo:hover{transform:rotate(-.4deg) translateY(-3px);box-shadow:0 2px 2px rgb(0 0 0/.45),0 22px 40px -14px rgb(0 0 0/.9)}.ds-photo:focus-visible{outline:2px solid #d9bf86;outline-offset:3px}.ds-print figcaption{display:flex;gap:.7rem;align-items:baseline;font:italic 400 1.08rem/1.5 Alegreya,Georgia,serif;color:#d6cfbf}.ds-num{font:400 .82rem \"Alegreya Sans SC\",sans-serif;letter-spacing:.1em;color:#9a9383}"
+    },
+    {
+      "name": "City Tab",
+      "kind": "nav",
+      "refersTo": "chapter-cover",
+      "description": "Small leather square holding a city unit; current city gets an inset gilt ring.",
+      "html": "<nav class=\"ds-tabs\"><a href=\"#\" aria-current=\"true\" style=\"--l:#5b3442\">E</a><a href=\"#\" style=\"--l:#6b1f1d\">L</a><a href=\"#\" style=\"--l:#22324a\">B</a><a href=\"#\" style=\"--l:#1f4a35\">D</a></nav>",
+      "css": ".ds-tabs{display:flex;gap:.4rem;padding:.4rem;background:#2a1c13;border-radius:6px}.ds-tabs a{display:grid;place-items:center;width:2.6rem;height:2.6rem;background:var(--l);color:#c8a25a;font:400 1rem Marcellus,serif;text-decoration:none;border-radius:3px;transition:filter .2s}.ds-tabs a:hover{filter:brightness(1.15)}.ds-tabs a:focus-visible{outline:2px solid #d9bf86;outline-offset:2px}.ds-tabs a[aria-current]{box-shadow:inset 0 0 0 1px rgb(200 162 90/.7)}"
+    },
+    {
+      "name": "Cover Action",
+      "kind": "button",
+      "refersTo": "album-cover",
+      "description": "Small-caps gilt text link with a hairline underline, used on the table below the cover.",
+      "html": "<a class=\"ds-action\" href=\"#\">Open the album</a>",
+      "css": ".ds-action{display:inline-block;padding:.5rem .1rem;font:400 1rem \"Alegreya Sans SC\",sans-serif;letter-spacing:.14em;color:#d9bf86;text-decoration:none;border-bottom:1px solid rgb(217 191 134/.35);transition:color .25s,border-color .25s}.ds-action:hover{color:#f0dcae;border-color:currentColor}.ds-action:focus-visible{outline:2px solid #d9bf86;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Tooled Family Album",
+    "overview": "The site is a physical object: a leather-bound family album lying open on a walnut table. Every surface is a material the album would really have. Walnut for the table. Tooled leather for the covers. Black card for the leaves. White-bordered prints. A translucent glassine interleaf for each city’s history. Gilt keylines and ornaments pressed into the leather tie it together. The interface recedes so the photographs lead; chrome is limited to what a bookbinder would add.",
+    "keyCharacteristics": [
+      "Real materials (raster walnut and leather textures), never flat CSS stand-ins.",
+      "One gilt keyline grammar: a lozenge frame enclosing a city unit.",
+      "One motion moment: ornaments “tooling” themselves into the leather.",
+      "Prints sit slightly askew on black card with pencil captions."
+    ],
+    "rules": [
+      {
+        "name": "The One Metal Rule",
+        "body": "Gilt is the only accent colour. Never add a second highlight hue; colour variety comes from the city leathers.",
+        "section": "colors"
+      },
+      {
+        "name": "The Leather Owns the City Rule",
+        "body": "A city’s colour appears only where that city is named: its cover, tab, contents mark and drop cap. It is never used for generic UI.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stamped Capitals Rule",
+        "body": "Marcellus appears only as uppercase gilt on leather, or as the drop cap. It is never used for body text or as a heading on black card.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do take every accent from gilt (#c8a25a) and every city colour from its leather.",
+      "Do build new ornaments from the 64-unit lozenge frame with `pathLength=1` keylines so they can tool in.",
+      "Do keep captions short, in Alegreya italic and ≤34ch.",
+      "Do reuse the textures in `docs/assets/` for any new surface; regenerate them with `scripts/textures.mjs`."
+    ],
+    "donts": [
+      "Don't render leather, card or walnut as flat colour or CSS gradients alone.",
+      "Don't add a second animated flourish; tooling is the one motion moment.",
+      "Don't use `vector-effect: non-scaling-stroke` on `pathLength` ornaments; Chrome breaks the dash maths.",
+      "Don't use rounded corners above 5px, glass blur, or gradient text."
+    ]
+  }
+}
